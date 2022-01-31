@@ -1,0 +1,26 @@
+{
+  "name": "nativepost_backend",
+  "version": "1.0.0",
+  "description": "Native post applicatoin backend ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shevaitverma/nativePost_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shevaitverma/nativePost_backend/issues"
+  },
+  "homepage": "https://github.com/Shevaitverma/nativePost_backend#readme",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}
